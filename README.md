@@ -2,7 +2,7 @@
 
 #### VLC的简单使用
 
-[MobileVLCKit.framework下载]()
+[MobileVLCKit.framework下载](https://pan.baidu.com/s/1mhCBWpy) 密码 zhus
 
 > 下载好放入工程
 >
