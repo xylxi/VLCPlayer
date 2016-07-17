@@ -407,7 +407,7 @@ extension PlayViewController {
         }
         playBtn.selected = !playBtn.selected
         replayView.hidden = true
-        activityView.startAnimating()
+        
         
     }
     
@@ -485,6 +485,7 @@ extension PlayViewController : VLCMediaPlayerDelegate {
             activityView.stopAnimating()
             print("播放中")
         } else if vlcPlayer.state == .Buffering {
+            activityView.startAnimating()
             print("缓冲中")
         } else if vlcPlayer.state == .Ended {
             print("播放完毕")
